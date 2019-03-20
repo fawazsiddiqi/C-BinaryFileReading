@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F18B9369216BD9F600CE3C76 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F18B9368216BD9F600CE3C76 /* main.cpp */; };
+		F18B9372216BDA3700CE3C76 /* ass1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F18B9370216BDA3700CE3C76 /* ass1.cpp */; };
+		F18B9373216BDA3700CE3C76 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F18B9371216BDA3700CE3C76 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,9 @@
 
 /* Begin PBXFileReference section */
 		F18B9365216BD9F600CE3C76 /* MohammadFawazSiddiqi_5465163_251ASS1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MohammadFawazSiddiqi_5465163_251ASS1; sourceTree = BUILT_PRODUCTS_DIR; };
-		F18B9368216BD9F600CE3C76 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F18B936F216BDA3700CE3C76 /* ass1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ass1.h; sourceTree = "<group>"; };
+		F18B9370216BDA3700CE3C76 /* ass1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ass1.cpp; sourceTree = "<group>"; };
+		F18B9371216BDA3700CE3C76 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +60,9 @@
 		F18B9367216BD9F600CE3C76 /* MohammadFawazSiddiqi_5465163_251ASS1 */ = {
 			isa = PBXGroup;
 			children = (
-				F18B9368216BD9F600CE3C76 /* main.cpp */,
+				F18B9370216BDA3700CE3C76 /* ass1.cpp */,
+				F18B936F216BDA3700CE3C76 /* ass1.h */,
+				F18B9371216BDA3700CE3C76 /* main.cpp */,
 			);
 			path = MohammadFawazSiddiqi_5465163_251ASS1;
 			sourceTree = "<group>";
@@ -118,7 +123,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F18B9369216BD9F600CE3C76 /* main.cpp in Sources */,
+				F18B9373216BDA3700CE3C76 /* main.cpp in Sources */,
+				F18B9372216BDA3700CE3C76 /* ass1.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
